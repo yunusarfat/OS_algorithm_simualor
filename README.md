@@ -1,16 +1,44 @@
-# React + Vite
+# 🖥️ OS Algorithm Simulator (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ A web-based Operating System Algorithm Simulator built with React + Vite, designed to visually demonstrate core OS concepts such as CPU Scheduling, Deadlock Avoidance, and Memory Allocation.
 
-Currently, two official plugins are available:
+# 🌐 Deployment
+LINK: https://os-algorithm-simualor.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# ✅ Implemented Algorithms
 
-## React Compiler
+CPU Scheduling
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+First Come First Serve (FCFS)
 
-## Expanding the ESLint configuration
+Deadlock Avoidance
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Banker’s Algorithm (Safe Sequence Detection)
+
+Memory Management
+
+First-Fit Memory Allocation
+
+# 📊 Visual Output
+
+Process execution graphs
+
+Timeline-based CPU scheduling visualization
+
+Clear process positioning for easy understanding
+
+
+# 🛠️ Tech Stack
+
+Frontend: React.js (Vite)
+
+HTTP Client: Axios
+
+Styling: CSS / Tailwind 
+
+Deployment: Vercel
+
+Backend: Django REST API
+# Run locally
+npm install
+npm run dev
